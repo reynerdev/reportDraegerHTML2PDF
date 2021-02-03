@@ -88,7 +88,7 @@ body {
     display: flex;
     position: relative;
     /* border: 1px solid black; */
-    height: 400px;
+    /* height: 400px; */
 }
 
 .pages {
@@ -122,19 +122,29 @@ body {
 }
 
 .items {
+
     margin-top: 40px;
-    display: flex;
-    position: absolute;
+    /* padding-right: 40px; */
+    /* display: flex; */
+    position: relative;
+    /* position: absolute; */
 }
 
 .itemsNumber {
-    margin-left: 5px;
-    width: 200px;
+    /* margin-left: 5px; */
+    position: absolute;
+    left: -160px;
+    /* width: 200px; */
     /* border: 1px solid black; */
 
 }
 
 .content {
+    /* padding: 0 40px; */
+    padding-left: 40px;
     /* border: 1px solid black; */
-    flex: 1;
+    width: 520px;
+    /* padding: 80px; */
+    /* flex: 1; */
+    word-wrap: break-word;
 }

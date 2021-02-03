@@ -1,5 +1,6 @@
 var element = document.getElementById('element-to-print');
-
+var text = document.querySelector('.firstContent').innerText;
+console.log(text.length);
 var opt = {
   // margin: [50, 50, 50, 50],
   filename: 'myfile.pdf',
@@ -14,4 +15,4 @@ var opt = {
     hotfixes: ['px_scaling'],
   },
 };
-html2pdf().set(opt).from(element).save();
+// html2pdf().set(opt).from(element).save();
