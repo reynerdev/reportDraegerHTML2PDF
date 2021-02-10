@@ -15,4 +15,4 @@ var opt = {
     hotfixes: ['px_scaling'],
   },
 };
-// html2pdf().set(opt).from(element).save();
+html2pdf().set(opt).from(element).save();
